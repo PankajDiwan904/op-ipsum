@@ -9,6 +9,14 @@
   "categories": [
     "Other"
   ],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/PankajDiwan904/op-ipsum"
+},
+  "publisher": "PankajDiwan",
+  "homepage": "https://github.com/PankajDiwan904/op-ipsum#readme",
+
+
   "activationEvents": [
     "onLanguage:html",
     "onLanguage:javascript",
@@ -115,7 +123,20 @@
     ]
   },
   "readme": "README.md",
-  "icon": "https://raw.githubusercontent.com/PankajDiwan904/op-ipsum/main/assets/op-ipsum-logo.png",
+  "icon": "assets/op-ipsum-logo.png",
+  "keywords": [
+  "Transformers",
+  "quotes",
+  "funny",
+  "Optimus Prime",
+  "Megatron",
+  "Bumblebee",
+  "placeholder",
+  "text",
+  "lorem ipsum",
+  "humor"
+],
+
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
