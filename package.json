@@ -136,6 +136,7 @@
   "lorem ipsum",
   "humor"
 ],
+  "license": "MIT",
 
   "scripts": {
     "lint": "eslint .",
