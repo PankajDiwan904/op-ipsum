@@ -2,7 +2,8 @@
   "name": "op-ipsum",
   "displayName": "op-ipsum",
   "description": "Inject hilarious Optimus Prime banter into your code — because even robots need to lighten up!",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "PankajDiwan",
   "engines": {
     "vscode": "^1.100.0"
   },
@@ -10,20 +11,17 @@
     "Other"
   ],
   "repository": {
-  "type": "git",
-  "url": "https://github.com/PankajDiwan904/op-ipsum"
-},
-  "publisher": "PankajDiwan",
+    "type": "git",
+    "url": "https://github.com/PankajDiwan904/op-ipsum"
+  },
   "homepage": "https://github.com/PankajDiwan904/op-ipsum#readme",
-
-
+  "main": "./extension.js",
   "activationEvents": [
     "onLanguage:html",
     "onLanguage:javascript",
     "onLanguage:css",
     "onLanguage:plaintext"
   ],
-  "main": "./extension.js",
   "contributes": {
     "commands": [
       {
@@ -125,19 +123,18 @@
   "readme": "README.md",
   "icon": "assets/op-ipsum-logo.png",
   "keywords": [
-  "Transformers",
-  "quotes",
-  "funny",
-  "Optimus Prime",
-  "Megatron",
-  "Bumblebee",
-  "placeholder",
-  "text",
-  "lorem ipsum",
-  "humor"
-],
+    "Transformers",
+    "quotes",
+    "funny",
+    "Optimus Prime",
+    "Megatron",
+    "Bumblebee",
+    "placeholder",
+    "text",
+    "lorem ipsum",
+    "humor"
+  ],
   "license": "MIT",
-
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
