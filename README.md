@@ -1,4 +1,4 @@
-![op-ipsum Logo](./assets/op-ipsum.png)
+![op-ipsum Logo](https://raw.githubusercontent.com/PankajDiwan904/op-ipsum/main/assets/op-ipsum-logo.png)
 
 
 # 🚗 op-ipsum
@@ -6,7 +6,7 @@
 Welcome to **op-ipsum** – the VS Code extension that transforms your editor into a battleground of wit, wisdom, and robot banter! Why settle for boring placeholder text when you can have Optimus Prime, Bumblebee, and Megatron dropping quotes hotter than a Decepticon’s exhaust?
 
 ---
-![Demo Gif](./assets/op-ipsum.gif)
+![Demo Gif](https://raw.githubusercontent.com/PankajDiwan904/op-ipsum/main/assets/op-ipsum.gif)
 
 ## 🤖 Why Was This Created?
 

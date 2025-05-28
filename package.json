@@ -115,7 +115,7 @@
     ]
   },
   "readme": "README.md",
-  "icon": "assets/op-ipsum.png",
+  "icon": "https://raw.githubusercontent.com/PankajDiwan904/op-ipsum/main/assets/op-ipsum-logo.png",
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
