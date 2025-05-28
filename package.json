@@ -1,0 +1,132 @@
+{
+  "name": "op-ipsum",
+  "displayName": "op-ipsum",
+  "description": "Inject hilarious Optimus Prime banter into your code — because even robots need to lighten up!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:css",
+    "onLanguage:plaintext"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "op-ipsum.insertOptimusQuote",
+        "title": "Insert Optimus Prime Quote"
+      },
+      {
+        "command": "op-ipsum.insertBumblebeeQuote",
+        "title": "Insert Bumblebee Quote"
+      },
+      {
+        "command": "op-ipsum.insertMegatronQuote",
+        "title": "Insert Megatron Quote"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "ctrl+alt+o",
+        "command": "op-ipsum.insertOptimusQuote",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+alt+b",
+        "command": "op-ipsum.insertBumblebeeQuote",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+alt+n",
+        "command": "op-ipsum.insertMegatronQuote",
+        "when": "editorTextFocus"
+      }
+    ],
+    "languages": [
+      {
+        "id": "plaintext",
+        "aliases": [
+          "Plain Text"
+        ],
+        "extensions": [
+          ".txt"
+        ]
+      },
+      {
+        "id": "javascript",
+        "aliases": [
+          "JavaScript"
+        ],
+        "extensions": [
+          ".js"
+        ]
+      },
+      {
+        "id": "html",
+        "aliases": [
+          "HTML"
+        ],
+        "extensions": [
+          ".html",
+          ".htm"
+        ]
+      },
+      {
+        "id": "css",
+        "aliases": [
+          "CSS"
+        ],
+        "extensions": [
+          ".css"
+        ]
+      }
+    ],
+    "completionItemProvider": [
+      {
+        "language": "plaintext",
+        "triggerCharacters": [
+          " "
+        ]
+      },
+      {
+        "language": "javascript",
+        "triggerCharacters": [
+          " "
+        ]
+      },
+      {
+        "language": "html",
+        "triggerCharacters": [
+          "\t"
+        ]
+      },
+      {
+        "language": "css",
+        "triggerCharacters": [
+          " "
+        ]
+      }
+    ]
+  },
+  "readme": "README.md",
+  "icon": "assets/op-ipsum.png",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.100.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.25.1",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
